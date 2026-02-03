@@ -14,8 +14,31 @@
         transition: background-color 0.3s, color 0.3s;
     }
     .dark-mode {
-        background-color: #7A263A;
-        color: #f0f0f0;
+        background-color: #1a1a1a;
+        color: #ffffff;
+    }
+    .dark-mode .container {
+        background-color: #2d2d2d;
+        color: #ffffff;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .dark-mode .section-header {
+        background-color: #333;
+        color: #ff4d4d;
+    }
+    .dark-mode .section-content {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    }
+    .dark-mode footer {
+        background-color: #333;
+        color: #ffffff;
+    }
+    .dark-mode a {
+        color: #ff4d4d;
+    }
+    .dark-mode pre {
+        color: #ffffff;
     }
     header {
         background-color: #7A263A;
@@ -321,5 +344,6 @@ document.querySelectorAll('.section-header').forEach(header => {
 });
 </script>
 
+    <script src="script.js"></script>
 </body>
 </html>
